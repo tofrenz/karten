@@ -1,0 +1,199 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-10196481-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-10196481-11');
+        if (window.location.host.endsWith("localhost")){
+            window['ga-disable-UA-10196481-11'] = true;
+        }
+    </script>
+    <link rel="apple-touch-icon" sizes="57x57" href="static/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="static/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicons/manifest.json">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="static/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+    <title>WorkAdventu.re</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="title" content="Workadventure" />
+    <meta name="description" content="You are impatient to discover this new world? Click on 'Work online' and meet new people or share this adventure with your colleagues and friends by clicking on 'Work in private'" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:url" content="https://workadventu.re/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Workadventure" />
+    <meta property="og:description" content="You are impatient to discover this new world? Click on 'Work online' and meet new people or share this adventure with your colleagues and friends by clicking on 'Work in private'" />
+    <meta property="og:image" content="https://workadventu.re/static/images/meta-tags-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:alt" content="workadventure" />
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@coding_machine">
+    <meta name="twitter:url" content="https://workadventu.re/" />
+    <meta name="twitter:title" content="Workadventure" />
+    <meta name="twitter:description" content="You are impatient to discover this new world? Click on 'Work online' and meet new people or share this adventure with your colleagues and friends by clicking on 'Work in private'" />
+    <meta name="twitter:image" content="https://workadventu.re/static/images/meta-tags-image.jpg" />
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body{
+            font-family: "Open Sans"!important;
+            background-color: white;
+        }
+        .card{
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+        }
+        li{
+            margin: 10px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .card-header{
+            padding: .8rem 1rem;
+        }
+        p{
+            margin-bottom: 0.4rem;
+        }
+        p.lead{
+            font-size: 1rem;
+        }
+    </style>
+    <script src="bundle.js"></script>
+    <script>
+        function startGame() {
+            let playUrl = window.location.protocol + "//play."+window.location.host+"/_/global/npeguin.github.io/office-map/map.json";
+            window.open(playUrl, '_blank');
+        }
+        function shareFB() {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=https://workadventu.re/', '_blank', 'width=500,height=500');
+        }
+        function shareLI() {
+            window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://workadventu.re/&title=&summary=Your workplace but better!&source=TheCodingMachine', '_blank', 'width=500,height=500');
+        }
+        function shareTW() {
+            window.open('https://twitter.com/share?text=Your workplace but better!&url=https://workadventu.re/&hashtags=thecodingmachine', '_blank', 'width=500,height=500');
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js" integrity="sha256-MVs0yHYDQBhIRZrNeWB1YaNMrGbFwowIEPIl3um5MZE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js" integrity="sha256-FEFPM9cOclVyq+lIim2xnU/dAgrALF+g4M8kYm2tbX0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-2 mb-3">
+        <nav class="my-2 my-md-0 mr-md-3 col-md-4">
+            <a href="https://www.facebook.com/workadventurebytcm" target="_blank">
+                <img src="images/facebook.png">
+            </a>
+            <a href="https://www.linkedin.com/company/workadventure-by-tcm/" target="_blank">
+                <img src="images/linkedin.png">
+            </a>
+            <a href="https://twitter.com/Workadventure_" target="_blank">
+                <img src="images/twitter.png">
+            </a>
+        </nav>
+        <nav class="my-2 my-md-0 mr-md-3 col-md-4 text-center">
+            <a style="text-decoration: none" href="mailto:workadventure@thecodingmachine.com">Contact us</a>
+        </nav>
+        <nav class="my-2 my-md-0 mr-md-3 col-md-4 text-right">
+            <a class="btn btn-outline-primary" href="https://admin.workadventu.re" target="_blank">Sign up</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="pricing-header px-3 py-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Pricing</h1>
+            <p class="lead">WorkAdventure preserves your social interaction while COVID is still out there.</p>
+            <p class="lead">Stay connected with your teamworkers, by creating your own online workspace to work remotely.</p>
+            <p class="lead">Stay connected with your clients by providing a dedicated digital place to organize meetings, workshops.</p>
+            <p class="lead">Engage with your future collaborators by organizing online events.</p>
+        </div>
+        <div class="card-deck row text-center justify-content-md-center">
+            <div class="card col-sm-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ user</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Meeting rooms</li>
+                        <li>Unlimited public maps</li>
+                        <li style="text-decoration: line-through">Unlimited private maps</li>
+                        <li style="text-decoration: line-through">WOKA Personalization</li>
+                        <li style="text-decoration: line-through">Moderator controls</li>
+                        <li style="text-decoration: line-through">Dashboard</li>
+                        <li style="text-decoration: line-through">Push global messages</li>
+                        <li style="text-decoration: line-through">Send private message</li>
+                    </ul>
+                    <a href="https://admin.workadventu.re" target="_blank" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</a>
+                </div>
+            </div>
+            <div class="card col-sm-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Office</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><small class="text-muted">Coming soon</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Meeting rooms</li>
+                        <li>Unlimited public maps</li>
+                        <li>Unlimited private maps</li>
+                        <li>WOKA Personalization</li>
+                        <li>Moderator controls</li>
+                        <li>Dashboard</li>
+                        <li>Push global messages</li>
+                        <li>Send private message</li>
+                    </ul>
+                    <a href="mailto:workadventure@thecodingmachine.com">Contact us for beta</a>
+                </div>
+            </div>
+            <div class="card col-sm-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Event</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><small class="text-muted">Available</small></h1>
+                    <h5><small class="text-muted">1000+ simultaneous users</small></h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Meeting rooms</li>
+                        <li>Open / Restricted access</li>
+                        <li>Auto login token</li>
+                        <li>Promote your sponsors</li>
+                        <li>WOKA Personalization</li>
+                        <li>Moderator controls</li>
+                        <li>Dashboard</li>
+                        <li>Push global messages</li>
+                        <li>Send private message</li>
+                    </ul>
+                    <a href="mailto:workadventure@thecodingmachine.com">Contact us</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
